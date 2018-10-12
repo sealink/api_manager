@@ -12,4 +12,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'rails'
   s.add_dependency 'rest-client', '~> 2.0.2'
+
+  s.add_development_dependency 'bundler', '>= 1.12.5'
+  s.add_development_dependency 'rake', '~> 11.3.0'
 end
