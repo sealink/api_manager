@@ -28,3 +28,8 @@ require 'api_manager/response/base'
 require 'api_manager/response/html_response'
 require 'api_manager/response/json_response'
 require 'api_manager/response/raw_response'
+
+ActiveSupport::Inflector.inflections do |inflect|
+   inflect.acronym 'HTML'
+   inflect.acronym 'JSON'
+end
