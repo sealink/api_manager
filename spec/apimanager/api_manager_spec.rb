@@ -1,10 +1,7 @@
-require 'active_support/all'
-require 'action_controller'
-require 'rest-client'
-require 'rails'
-require 'api_manager'
-require 'active_record'
 require 'spec_helper'
+require 'active_support/all'
+require 'rest-client'
+require 'api_manager'
 
 RSpec.describe APIManager, :vcr do
   describe '#get' do
