@@ -20,6 +20,13 @@ APIManager extends upon Rest-client's features. For information on getting start
 [REST-client Readme](https://github.com/rest-client/rest-client/blob/master/README.md).
 
 
+An example of using the code:
+
+    APIManager.get(
+      url: 'https://www.google.com',
+      headers: { Cookie: 'lovelycookie' }
+    )
+
 ## Development
 
 After checking out the repo, run `bundle install` to install dependencies. Then, run `rake spec`

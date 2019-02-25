@@ -28,8 +28,6 @@ module APIManager
     end
 
     def execute(options)
-      Rails.logger.debug("#{options.fetch(:method).to_s.upcase}: #{options.fetch(:url)}")
-
       @content_type = options.fetch(:as, :json)
 
       request_options = options.slice(:headers, :url, :method)
