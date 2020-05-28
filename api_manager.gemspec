@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.files       =  Dir['lib/**/*', 'LICENSE', 'README.md', 'CHANGELOG.md']
 
   s.add_dependency 'rest-client', '~> 2.0.2'
-  s.add_dependency 'activesupport', '~> 5.2.1'
+  s.add_dependency 'activesupport', '>= 5.2.1', '< 6.1.0'
 
   s.add_development_dependency 'bundler', '>= 1.12.5'
   s.add_development_dependency 'rake', '~> 11.3.0'
