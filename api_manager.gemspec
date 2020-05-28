@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'activesupport', '>= 5.2.1', '< 6.1.0'
 
   s.add_development_dependency 'bundler', '>= 1.12.5'
-  s.add_development_dependency 'rake', '~> 11.3.0'
+  s.add_development_dependency 'rake', '~> 12.3.3'
   s.add_development_dependency 'rspec', '~> 3.9.0'
   s.add_development_dependency 'coverage-kit', '~> 0.1.0'
   s.add_development_dependency 'simplecov-rcov', '~> 0.2.3'
