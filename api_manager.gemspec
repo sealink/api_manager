@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email       = 'development@sealink.com.au'
   s.files       =  Dir['lib/**/*', 'LICENSE', 'README.md', 'CHANGELOG.md']
 
-  s.add_dependency 'rest-client', '~> 2.0.2'
+  s.add_dependency 'rest-client', '>= 2.0.2', '< 2.2.0'
   s.add_dependency 'activesupport', '>= 5.2.1', '< 6.1.0'
 
   s.add_development_dependency 'bundler', '>= 1.12.5'
