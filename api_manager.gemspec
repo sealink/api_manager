@@ -20,5 +20,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'simplecov-rcov', '~> 0.2.3'
   s.add_development_dependency 'coveralls', '~> 0.8.22'
   s.add_development_dependency 'vcr', '~> 6.0.0'
-  s.add_development_dependency 'webmock', '~> 3.9.1'
+  s.add_development_dependency 'webmock', '~> 3.10.0'
 end
